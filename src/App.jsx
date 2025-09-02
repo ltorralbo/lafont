@@ -23,7 +23,7 @@ function App() {
               Estimado/a Paulina Cancino:
             </p>
             <p className="text">
-              Tiene una cita reservada con la<strong>Dra Javiera Navarrete</strong> en
+              Tiene una cita reservada con la<strong> Dra. Javiera Navarrete</strong> en
               <strong> lafont estetica</strong> dirección <strong>AV. Libertad 269</strong>
               <br />
               <strong>Oficina 401</strong>
