@@ -1,0 +1,142 @@
+.page {
+  min-height: 100vh;
+  background: #f4f7fb;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 24px 16px;
+}
+
+.card {
+  width: 420px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+}
+
+.card__header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: #0ea5e9; /* sky blue */
+  color: #ffffff;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-weight: 700;
+}
+
+.card__header-icon {
+  font-size: 21px;
+}
+
+.card__header-title {
+  font-size: 22px;
+}
+
+.card__content {
+  padding: 18px 16px 20px 16px;
+}
+
+.clinic {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 8px;
+}
+
+.clinic__logo {
+  height: 300px;
+  object-fit: contain;
+}
+
+.section {
+  margin: 10px 0 14px 0;
+}
+
+.greeting {
+  margin: 0 0 6px 0;
+  font-weight: 700;
+}
+
+.text {
+  margin: 0;
+  color: #374151;
+  line-height: 1.45;
+}
+
+.details {
+  background: #f1f5f9;
+  border-radius: 10px;
+  padding: 10px 12px;
+  display: grid;
+  gap: 10px;
+  margin: 12px 0 14px 0;
+}
+
+.detail {
+  display: flex;
+  gap: 10px;
+}
+
+.detail__icon {
+  font-size: 18px;
+}
+
+.detail__title {
+  font-weight: 600;
+}
+
+.detail__sub {
+  color: #6b7280;
+  font-size: 13px;
+}
+
+.notes {
+  color: #475569;
+  font-size: 14px;
+}
+
+.contacts {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.contact {
+  color: #0ea5e9;
+  text-decoration: none;
+}
+
+.contact:hover {
+  text-decoration: underline;
+}
+
+.footer-note {
+  text-align: center;
+  color: #94a3b8;
+  margin-top: 14px;
+  font-size: 16px;
+}
+
+.alert {
+  border: 1px solid rgba(14, 165, 233, 0.3);
+  background: #e0f2fe; /* light sky */
+  color: #0c4a6e;
+  border-radius: 10px;
+  padding: 10px 12px;
+  margin: 12px 0 4px 0;
+}
+
+.alert__title {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .4px;
+  margin-bottom: 4px;
+}
+
+.alert__content {
+  font-size: 14px;
+  line-height: 1.45;
+}
