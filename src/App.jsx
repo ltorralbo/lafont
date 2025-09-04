@@ -13,14 +13,14 @@ function App() {
           <div className="clinic">
             <img
               className="clinic__logo"
-              src="/logo.jpg"
+              src={import.meta.env.BASE_URL + 'logo.jpg'}
               alt="Logo"
             />
           </div>
 
           <div className="section">
             <p className="greeting">
-              Estimado/a Paulina Cancino:
+              Estimado/a Marcia Aravena:
             </p>
             <p className="text">
               Tiene una cita reservada con la<strong> Dra. Javiera Navarrete</strong> en
@@ -35,7 +35,7 @@ function App() {
               <span className="detail__icon">📆</span>
               <div>
                 <div className="detail__title">Sábado, 06 de septiembre de 2025</div>
-                <div className="detail__sub">15:00 horas</div>
+                <div className="detail__sub">16:00 horas</div>
               </div>
             </div>
 
